@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(49, 49, 86);
+    color: white;
+    font-family: Tahoma;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: block;
+    margin: 0.9rem 0;
+}
+p{
+    text-align: center;
+}
+fieldset{
+    padding-left: 10px;
+    border: none;
+}
