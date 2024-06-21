@@ -10,14 +10,19 @@
     <h1>CSIT Registration Form</h1>
     <p>Please fill out this form with required information.</p>
     <fieldset>
-        <label for="firstname">Enter your First Name:<input id="firstname" placeholder="First Name..."/></label>
-        <label for="lastname">Enter your Last Name:<input id="lastname" placeholder="Last Name..."/></label>
-        <label for="Phonenumber">Enter your phone number:<input id="Phonenumber" type="number" placeholder="+977..."/></label>
+        <label for="firstname">Enter your First Name:<input id="firstname" placeholder="First Name..." type="text"/></label>
+        <label for="lastname">Enter your Last Name:<input id="lastname" placeholder="Last Name..." type="text"/></label>
+        <label for="Phonenumber">Enter your phone number:<input id="Phonenumber" type="tel" placeholder="+977..."/></label>
         <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
     </fieldset>
     <fieldset>
-        <label for="gender">What's your gender ?<br><input type="radio">Male<br><input type="radio"/>Female</label>
+        <label for="gender">What's your gender ?<br><input type="radio">Male<br><input type="radio"/>Female<br><input type="radio">Others</label>
         <label for="subject">What did you study in '+2' ?<br><input type="radio">Biology<br><input type="radio">Computer</label>
+        <label for="method">Preferred Method of Contact: <br><input type="radio">Email<br><input type="radio">Phone<br><input type="radio">SMS </label>
+    </fieldset>
+    <fieldset>
+        <label for="highschool">Enter your highschool name<br><input id="highschool" type="text"> </label>
+        <label for="graduation">Graduation Year:<br><select id="graduation" type="dropdown"> </label>
     </fieldset>
     <fieldset>
         <label for="age">What is your age ?<br><input id="age" type="number"> </label>
