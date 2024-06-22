@@ -1,7 +1,8 @@
 body{
-    background-color: rgb(49, 49, 86);
-    color: white;
+    background-image: linear-gradient(to bottom right, rgb(21, 11, 94), rgb(59, 57, 94));
+    color: rgb(232, 225, 225);
     font-family: Tahoma;
+    padding-left: 20px;
 }
 h1{
     text-align: center;
@@ -16,5 +17,8 @@ p{
 fieldset{
     padding-left: 10px;
     border: none;
-    border-bottom: 3px solid #3e3e47;
+    border-bottom: 3px solid #64646e;
 }
+#grad {
+    background-image: linear-gradient(to bottom right, red, yellow);
+  }
