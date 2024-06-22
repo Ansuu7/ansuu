@@ -1,6 +1,6 @@
 body{
-    background-image: linear-gradient(to bottom right, rgb(21, 11, 94), rgb(59, 57, 94));
-    color: rgb(232, 225, 225);
+    background-color: rgb(26, 26, 54);
+    color: rgb(255, 255, 255);
     font-family: Tahoma;
     padding-left: 20px;
 }
@@ -19,6 +19,6 @@ fieldset{
     border: none;
     border-bottom: 3px solid #64646e;
 }
-#grad {
-    background-image: linear-gradient(to bottom right, red, yellow);
+.submit{
+    text-align: center;
   }
